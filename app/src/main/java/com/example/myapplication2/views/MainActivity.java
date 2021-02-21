@@ -19,6 +19,7 @@ import com.example.myapplication2.R;
 import com.example.myapplication2.models.CartItem;
 import com.example.myapplication2.viewmodels.ShopViewModel;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -87,5 +88,10 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         return NavigationUI.onNavDestinationSelected(item, navController) ||
         super.onOptionsItemSelected(item);
+    }
+
+    public void test(){
+        List<String > list = new ArrayList<>();
+        list.add("shere ");
     }
 }
