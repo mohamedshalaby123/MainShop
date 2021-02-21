@@ -90,8 +90,5 @@ public class MainActivity extends AppCompatActivity {
         super.onOptionsItemSelected(item);
     }
 
-    public void test(){
-        List<String > list = new ArrayList<>();
-        list.add("shere ");
-    }
+
 }
